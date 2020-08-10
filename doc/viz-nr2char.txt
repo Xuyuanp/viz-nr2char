@@ -1,0 +1,66 @@
+*viz-nr2char.txt* Visulized nr2char function with 'conceal' feature
+*viz-nr2char*
+
+==============================================================================
+CONTENTS                                                 *Viz-nr2charContents*
+
+    1. Introduction ............................ |Viz-nr2charIntroduction|
+    2. Commands .................................... |Viz-nr2charCommands|
+    3. Mappings .................................... |Viz-nr2charMappings|
+    4. Options ...................................... |Viz-nr2charOptions|
+    5. FAQ/Troubleshootings ................ |Viz-nr2charTroubleshootings|
+
+==============================================================================
+INTRODUCTION                                         *Viz-nr2charIntroduction*
+
+Viz-nr2char is used to visulized nr2char function in vim script with 'conceal'
+feature. For example, `nr2char(65)` to `nr2char(A)`
+
+==============================================================================
+Commands                                                 *Viz-nr2charCommands*
+
+:VizNr2char                                                      *:VizNr2char*
+    VizNr2char conceals the codes of 'nr2char(<code>)' in current line, and
+    shows its result in place. It will affect all selected lines if executed
+    in Visual mode.
+
+:VizNr2charAll                                                *:VizNr2charAll*
+    VizNr2charAll is the same as |:VizNr2char| but for the whole file.
+
+:VizNr2charClear                                            *:VizNr2charClear*
+    VizNr2charClear clears all concealed nr2char.
+
+==============================================================================
+Mappings                                                 *Viz-nr2charMappings*
+
+Viz-nr2char has several <Plug> keys which can be used to create custom mappings.
+
+<Plug>(VizNr2charNormal)                            *<Plug>(VizNr2charNormal)*
+    Conceals nr2char in current line(same as |:VizNr2char| in Normal mode).
+    default: <leader>vn
+
+<Plug>(VizNr2charVisual)                            *<Plug>(VizNr2charVisual)*
+    Conceals nr2char in all selected lines(same as |:VizNr2char| in Visual mode).
+    default: <leader>vn
+
+<Plug>(VizNr2charAll)                                  *<Plug>(VizNr2charAll)*
+    Conceals nr2char in the whole file(same as |:VizNr2charAll|).
+    default: <leader>va
+
+<Plug>(VizNr2charClear)                              *<Plug>(VizNr2charClear)*
+    Clears all concealed 'nr2char'(same as |:VizNr2charClear|).
+    default: <leader>vc
+
+==============================================================================
+Options                                                   *Viz-nr2charOptions*
+
+                                                        *'g:viz_nr2char_auto'*
+
+Run |:VizNr2charAll| when a vim buffer opened. By default this disabled.
+
+==============================================================================
+FAQ/Troubleshootings                             *Viz-nr2charTroubleshootings*
+
+nothing yet.
+
+vim:tw=78:ts=8:noet:ft=help:norl:

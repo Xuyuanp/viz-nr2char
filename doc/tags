@@ -1,0 +1,16 @@
+'g:viz_nr2char_auto'	viz-nr2char.txt	/*'g:viz_nr2char_auto'*
+:VizNr2char	viz-nr2char.txt	/*:VizNr2char*
+:VizNr2charAll	viz-nr2char.txt	/*:VizNr2charAll*
+:VizNr2charClear	viz-nr2char.txt	/*:VizNr2charClear*
+<Plug>(VizNr2charAll)	viz-nr2char.txt	/*<Plug>(VizNr2charAll)*
+<Plug>(VizNr2charClear)	viz-nr2char.txt	/*<Plug>(VizNr2charClear)*
+<Plug>(VizNr2charNormal)	viz-nr2char.txt	/*<Plug>(VizNr2charNormal)*
+<Plug>(VizNr2charVisual)	viz-nr2char.txt	/*<Plug>(VizNr2charVisual)*
+Viz-nr2charCommands	viz-nr2char.txt	/*Viz-nr2charCommands*
+Viz-nr2charContents	viz-nr2char.txt	/*Viz-nr2charContents*
+Viz-nr2charIntroduction	viz-nr2char.txt	/*Viz-nr2charIntroduction*
+Viz-nr2charMappings	viz-nr2char.txt	/*Viz-nr2charMappings*
+Viz-nr2charOptions	viz-nr2char.txt	/*Viz-nr2charOptions*
+Viz-nr2charTroubleshootings	viz-nr2char.txt	/*Viz-nr2charTroubleshootings*
+viz-nr2char	viz-nr2char.txt	/*viz-nr2char*
+viz-nr2char.txt	viz-nr2char.txt	/*viz-nr2char.txt*
