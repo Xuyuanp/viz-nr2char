@@ -12,7 +12,7 @@ function! s:VizNr2char() range abort
     for l:ln in range(a:firstline, a:lastline)
         let code = matchstr(getline(l:ln), '\mnr2char(\s*\zs\S\+\ze\s*)')
         if strlen(code)
-            execute 'silent! syntax match VizNr2char /\mnr2char(\s*' . code . '\s*)/hs=s+8,he=e-1 conceal cchar=' . nr2char(code)
+            execute 'silent! syntax match VizNr2char /\mnr2char(\s*' . code . '\s*)/hs=s+8,he=e-1 containedin=ALL conceal cchar=' . nr2char(code)
         endif
     endfor
 endfunction
